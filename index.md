@@ -28,7 +28,7 @@ create a citation withing the text:
 
 > Les squelettes blancs vont à travers l'ombre
 
-create a link:
-[Link to a new page](newpage.md)
+### hypertext links:
 
-[Link to the same page](index.md)
+- This is a [link to a new page](newpage.md)
+- And this [one](index) just directs you to the same page
