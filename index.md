@@ -1,37 +1,42 @@
-## Welcome to GitHub Pages
+#This is the first group title
 
-You can use the [editor on GitHub](https://github.com/digital-methods/demo_website/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+Here are bullet points:
+- bullet1
+- bullet2
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Intégrer des contenus multimédias:
 
-### Markdown
+### au format audio (entretiens ou extraits choisis)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Lecteur de type Soundcloud
 
-```markdown
-Syntax highlighted code block
+<iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/112395490&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
 
-# Header 1
-## Header 2
-### Header 3
+Lecteur plus discret Wikipedia
 
-- Bulleted
-- List
+<iframe src="//commons.wikimedia.org/wiki/File:Saint-Saens,_Camille_-_Danse_macabre_Opus_40_-_Computer_generated,_transcribed_by_MacLeod.ogg?embedplayer=yes" width="300" height="20" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 
-1. Numbered
-2. List
+### au format video
 
-**Bold** and _Italic_ and `Code` text
+Lecteur de type youtube
 
-[Link](url) and ![Image](src)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/rZwNb11n9zk" frameborder="0" allowfullscreen></iframe>
+
+### comme texte
+
+Faire figurer un  pdf:
+
+<iframe class="scribd_iframe_embed" src="https://www.scribd.com/embeds/341852935/content?start_page=1&view_mode=scroll&access_key=key-QBYckJevb4n2sVehoVJU&show_recommendations=true" data-auto-height="false" data-aspect-ratio="0.7068965517241379" scrolling="no" id="doc_93562" width="100%" height="600" frameborder="0"></iframe>
+
+Mise en valeur d'extraits sous forme d'un bloc
 ```
+Le vent d'hiver souffle, et la nuit est sombre, 
+Des gémissements sortent des tilleuls ; 
+```
+ou de citations 
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+> Les squelettes blancs vont à travers l'ombre
 
-### Jekyll Themes
+insérées au sein de votre texte
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/digital-methods/demo_website/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+> Courant et sautant sous leurs grands linceuls
