@@ -29,4 +29,6 @@ create a citation withing the text:
 > Les squelettes blancs vont à travers l'ombre
 
 create a link:
-[Link to a new page](index.md)
+[Link to a new page](newpage.md)
+
+[Link to the same page](index.md)
