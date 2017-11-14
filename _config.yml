@@ -1,3 +1,10 @@
+
 theme: jekyll-theme-merlot
-title: This is the title
-description: This is the description
+title: C'est le titre
+description: C'est la description
+menu: [
+{'name': 'Home', 'pagename': 'index'},
+{'name': 'Cheat Sheet', 'pagename': 'cheatsheet'},
+{'name': 'Resources', 'pagename': 'resources'},
+{'name': 'About us', 'pagename': 'about'},
+]
