@@ -30,7 +30,3 @@ create a citation withing the text:
 
 > Les squelettes blancs vont à travers l'ombre
 
-### hypertext links:
-
-- This is a [link to a new page](newpage.md)
-- And this [one](index) just directs you to the same page
