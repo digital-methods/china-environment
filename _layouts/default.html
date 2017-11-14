@@ -23,21 +23,6 @@
 
   <body>
 
-  		<div id="sidebar-left">Left
-
-         <nav class="navbar navbar-default">
-<div class="navbar-header">  
-<div class="collapse navbar-collapse" id="myNavbar">
-<ul class="nav navbar-nav">
-{% for item in site.menu %}
-<li><a href="{{ item.pagename }}">{{ item.name }}</a></li>
-{% endfor %}
-</ul>
-<ul class="nav navbar-nav navbar-right"></ul>
-</div>
-</div>
-</nav>
-    </div>
 
     <!-- HEADER -->
     <div id="header_wrap" class="outer">
@@ -54,6 +39,24 @@
             </section>
           {% endif %}
         </header>
+	    
+	    
+	    <div id="sidebar-left">Left
+<nav class="navbar navbar-default">
+<div class="navbar-header">  
+<div class="collapse navbar-collapse" id="myNavbar">
+<ul class="nav navbar-nav">
+{% for item in site.menu %}
+<li><a href="{{ item.pagename }}">{{ item.name }}</a></li>
+{% endfor %}
+</ul>
+<ul class="nav navbar-nav navbar-right"></ul>
+</div>
+</div>
+</nav>
+</div>
+
+	    
     </div>
 
 	  
