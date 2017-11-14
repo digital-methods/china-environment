@@ -26,7 +26,19 @@
     <div class="shell">
 
       <header>
-        <nav class="navbar navbar-default">
+
+        
+        <span class="ribbon-outer">
+          <span class="ribbon-inner">
+            <h1>{{ site.title | default: site.github.repository_name }}</h1>
+            <h2>{{ site.description | default: site.github.project_tagline }}</h2>
+          </span>
+          <span class="left-tail"></span>
+          <span class="right-tail"></span>
+        </span>
+        
+        
+                <nav class="navbar navbar-default">
 <div class="container-fluid">
 <div class="navbar-header">
 <a class="navbar-brand">{{ site.title }}</a>
@@ -47,14 +59,10 @@
 </div>
 </nav>
         
-        <span class="ribbon-outer">
-          <span class="ribbon-inner">
-            <h1>{{ site.title | default: site.github.repository_name }}</h1>
-            <h2>{{ site.description | default: site.github.project_tagline }}</h2>
-          </span>
-          <span class="left-tail"></span>
-          <span class="right-tail"></span>
-        </span>
+      
+        
+        
+        
       </header>
 
       {% if site.show_downloads %}
