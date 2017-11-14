@@ -2,4 +2,5 @@
  
  Still pretty much empty except for this illustration:
  
- 
+ ![network map]({{ site.url }}/assets/images/Capture.png)  
+
